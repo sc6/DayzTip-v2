@@ -1,0 +1,351 @@
+/* colors
+
+background: FF9900;
+highlight: 2f393c;
+font-color: e0e2e4;
+subtle: 66747b;
+link:8bba87
+
+
+*/
+
+
+
+/* Global */
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	background-color:#293134;
+	color:white;
+}
+
+img.fix_width {
+	max-height:auto;
+	max-width:100%;
+}
+
+img.fix_height {
+	max-height:100%;
+	max-width:auto;
+}
+
+img.small_restrict_width {
+	width:50px;
+}
+
+img.small_restrict_height {
+	height:50px;
+}
+
+
+#title {
+	font-size:52px;
+}
+
+#hidden {
+	display:none
+}
+
+#small {
+	font-size:12px;
+}
+
+#right {
+	float:right;
+}
+
+#big {
+	font-size:20px;
+}
+
+
+/* Header elements */
+
+div.header_bar {
+	background-color:black;
+	color:white;
+	font-size:20px;
+	padding:10px 0;
+}
+
+span.header_content {
+	font-size:14px;
+	margin-left:100px;
+}
+
+
+/* Body elements */
+div.content_box {
+	border-right:1px dotted #66747b;
+	border-bottom:1px dotted #66747b;
+	margin-top:25px;
+	padding:70px 25px;
+	width:950px;
+}
+
+
+div.content_wrapper {
+	width:1024px;
+	color: #e0e2e4;
+	margin:0 auto;
+}
+
+div.comment_box {
+	width:700px;
+	padding:10px;
+	border: 1px solid #66747b;
+}
+
+div.description_box {
+	width:700px;
+	padding:25px;
+	border: 1px solid #66747b;
+}
+
+div.fit_box {
+	width:700px;
+}
+
+div.account_box {
+	background-color:black;
+	padding:10px 0;
+}
+
+div.account_info {
+	border:1px dashed darkgray;
+	padding:10px 30px;
+}
+
+div.title_bar {
+	background:inherit;
+	color:white;
+}
+
+div.image_box {
+	background:gray;
+	background-image:url("../images/transparent.png");
+	width:25%;
+	height:25%;
+	padding:2%;
+	text-align:center;
+	cursor:crosshair;
+}
+
+
+
+/* item collections */
+
+div.collections {
+	display:inline-block;
+	border-top:1px dotted #66747b;
+	border-bottom:1px dotted #66747b;
+	padding:auto 0;
+	width:300px;
+	margin:10px 20px;
+}
+
+div.collections:hover {
+	background:#2f393c;
+}
+
+div.collection_image {
+	display:inline-block;
+	padding:15px;
+}
+
+span.collection_name {
+	float:right;
+}
+
+/* END item collections */
+
+
+
+div.edit_button {
+	float:right;
+}
+
+div.paper {
+	background:black;
+	color:white;
+	padding:2%;
+	border-left:1px solid #F38630;
+	border-right:1px solid #F38630;
+	border-bottom:1px solid #F38630;
+}
+
+
+input.login_input[type=text] {
+	height:30px;
+	width:300px;
+	font-size:20px;
+	padding:5px 10px;
+	margin:20px 50px 0 0;
+    border:1px solid #c7d0d2;
+}
+
+input.login_input[type=email] {
+	height:30px;
+	width:300px;
+	font-size:20px;
+	padding:5px 10px;
+	margin:20px 50px 0 0;
+    border:1px solid #c7d0d2;
+}
+	
+	
+input.login_input[type=password] {
+	height:30px;
+	width:300px;
+	font-size:20px;
+	padding:5px 10px;
+	margin:20px 50px 0 0;
+    border:1px solid #c7d0d2;
+}
+
+input.login[type=submit] {
+	font-size:17px;
+    background-color:inherit;
+    text-decoration:none;
+    margin-top:50px;
+    border: 0px;
+    color:#00AAFF;
+}
+
+input.login[type=submit]:hover {
+    cursor:pointer;
+	text-decoration:underline;
+}
+
+input[type=submit] {
+	font-size:17px;
+	font-family: 'Open Sans', sans-serif;
+    background-color:inherit;
+    text-decoration:none;
+    border: 0px;
+    color:#00AAFF;
+}
+
+input[type=submit]:hover {
+    cursor:pointer;
+	text-decoration:underline;
+}
+
+input[type=number] {
+	width:40px;
+	font-size:20px;
+} /*more login styles available in 'text elements' section */
+
+input.search_main {
+padding:10px;
+width:70%;
+height:40px;
+font-size:20px;
+}
+
+textarea.fancy {
+	width:500px;
+	height:100px;
+}
+
+form {
+padding: 0;
+margin: 0;
+}
+
+
+/* Link elements */
+
+a:link {
+	color:#00AAFF;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#00AAFF;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.clean {
+	color:white;
+}
+
+
+
+/* Text elements */
+
+p.small {
+	font-size:14px;
+}
+
+h1.welcome {
+	margin-top:10%;
+	font-size:5em;
+	color:black;
+}
+
+h2.welcome {
+	width:900px;
+	font-size:2em;
+	color:black;
+	margin-top:50px;
+	margin-left:80px;
+}
+
+
+pre.comment {
+	font-family: 'Open Sans', sans-serif;
+	white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+
+span.dialogue {
+	font-family: "Courier New", Courier, monospace;
+	font-size:0.8em;
+}
+
+span.title {
+	font-size:3.5em;
+}
+
+span.subtitle {
+	font-size:2em;
+}
+
+span.subsubtitle{
+	font-size:1.5em;
+}
+
+span#login_error {
+	color:red;
+	font-size:16px;
+}
+
+span#subtle {
+	color:66747b;
+	font-size:12px;
+}
+
+
+/* Breaks */
+
+div.small_break {
+	height:50px;
+}
+
+div.break {
+	height:100px;
+}
